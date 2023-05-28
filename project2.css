@@ -1,0 +1,26 @@
+body{
+    padding:10px;
+    background-image:url(vb.jpg);
+    border:4px solid black;
+}
+.wrap{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:5px;
+}
+img{
+    width:100%;
+    border-radius:20px;
+    height:250px;
+}
+.box{
+    padding:10px;
+    color:black;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
